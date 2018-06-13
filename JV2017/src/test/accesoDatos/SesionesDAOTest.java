@@ -57,7 +57,7 @@ public class SesionDAOTest {
 
 	/**
 	 * Borrar datos de prueba antes de cada ejecucion
-	 * @author DAM GRUPO 3 Ricardo Esteban Vivancos
+	 * @author DAM GRUPO 3 Miguel Angel Hernandez Sanchez
 	 */
 	@After
 	public void borraDatosPrueba() {
