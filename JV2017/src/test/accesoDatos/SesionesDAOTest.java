@@ -57,7 +57,7 @@ public class SesionDAOTest {
 
 	/**
 	 * Borrar datos de prueba antes de cada ejecucion
-	 * @author DAM GRUPO 3 Miguel Angel Hernandez Sanchez
+	 * @author DAM GRUPO 3 Ricardo Esteban Vivancos
 	 */
 	@After
 	public void borraDatosPrueba() {
@@ -74,6 +74,14 @@ public class SesionDAOTest {
 		catch (DatosException e) {
 		}
 	}
+         /**
+          Proyecto: Juego de la vida.
+         * Prueba Junit4 de la clase SesionesDAO.
+         * @since: prototipo 2.1
+         * @source: SesionesDAOTest.java 
+         * @version: 2.1 - 2018.06.11
+	 * @author DAM GRUPO 3 Miguel Angel Hernandez Sanchez
+	 */
 
 	@Test
 	public void testObtenerSimulacionPredeterminada() {
